@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagrama de Bloques - b-learning UNS" id="bloques-b-learning-uns">
+    <mxGraphModel dx="1700" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1050" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="bg" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F7FAF7;strokeColor=#1B5E20;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="35" width="1510" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Diagrama de Bloques - Solución b-learning UNS" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=30;fontColor=#1B5E20;" vertex="1" parent="1">
+          <mxGeometry x="275" y="55" width="1050" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Arquitectura CAPAS/SOA orientada a educación continua: presentación, servicios web, negocio, datos e integración" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#555555;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="275" y="100" width="1050" height="28" as="geometry" />
+        </mxCell>
+
+        <mxCell id="qualityBar" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=2;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="80" y="145" width="1440" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="qualityAccent" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C62828;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="145" width="8" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="qualityText" value="CALIDAD TRANSVERSAL  ·  Disponibilidad 99.5%  ·  Desempeño  ·  Seguridad por roles  ·  Trazabilidad académica  ·  Continuidad sin interrupción" style="text;html=1;align=left;verticalAlign=middle;strokeColor=none;fillColor=none;fontStyle=1;fontSize=17;fontColor=#7F0000;" vertex="1" parent="1">
+          <mxGeometry x="115" y="145" width="1365" height="58" as="geometry" />
+        </mxCell>
+
+        <mxCell id="actors1" value="Alumnos / Aspirantes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F6F7;strokeColor=#DDDDDD;fontSize=14;fontColor=#555555;arcSize=18;" vertex="1" parent="1">
+          <mxGeometry x="110" y="225" width="220" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="actors2" value="Coordinación académica" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F6F7;strokeColor=#DDDDDD;fontSize=14;fontColor=#555555;arcSize=18;" vertex="1" parent="1">
+          <mxGeometry x="415" y="225" width="220" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="actors3" value="Docentes / Tutores" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F6F7;strokeColor=#DDDDDD;fontSize=14;fontColor=#555555;arcSize=18;" vertex="1" parent="1">
+          <mxGeometry x="720" y="225" width="220" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="actors4" value="Continuar.UNS + Tecnología Educativa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F6F7;strokeColor=#DDDDDD;fontSize=14;fontColor=#555555;arcSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="225" width="300" height="38" as="geometry" />
+        </mxCell>
+
+        <mxCell id="m1Box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6EAF8;gradientColor=#EBF5FB;gradientDirection=south;strokeColor=#2980B9;strokeWidth=2;arcSize=4;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="310" width="285" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="m1Icon" value="" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#AED6F1;strokeColor=#2980B9;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="195" y="335" width="105" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="m1Title" value="PRESENTACIÓN Y CANALES" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontStyle=1;fontSize=20;fontColor=#1A5276;" vertex="1" parent="1">
+          <mxGeometry x="125" y="410" width="245" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="m1Text" value="• Portal web del campus virtual&lt;br&gt;• Acceso móvil y navegador&lt;br&gt;• Difusión en campus, redes y medios&lt;br&gt;• Entrada para alumnos, docentes y operación" style="text;html=1;align=left;verticalAlign=top;strokeColor=none;fillColor=none;fontSize=15;fontColor=#1A5276;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="128" y="468" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m1Pill1" value="Capa de presentación" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AED6F1;strokeColor=#2980B9;arcSize=25;fontSize=13;fontColor=#1A5276;" vertex="1" parent="1">
+          <mxGeometry x="132" y="610" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="m1Pill2" value="Experiencia de usuario" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AED6F1;strokeColor=#2980B9;arcSize=25;fontSize=13;fontColor=#1A5276;" vertex="1" parent="1">
+          <mxGeometry x="132" y="650" width="230" height="28" as="geometry" />
+        </mxCell>
+
+        <mxCell id="m2Box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5F5E3;gradientColor=#EAFAF1;gradientDirection=south;strokeColor=#27AE60;strokeWidth=2;arcSize=4;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="310" width="285" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Icon" value="" style="shape=component;whiteSpace=wrap;html=1;fillColor=#A9DFBF;strokeColor=#27AE60;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="545" y="335" width="105" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Title" value="SERVICIOS WEB / SOA" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontStyle=1;fontSize=20;fontColor=#1E8449;" vertex="1" parent="1">
+          <mxGeometry x="475" y="410" width="245" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Text" value="• API académica para oferta y cursos&lt;br&gt;• API de inscripción y alumnos&lt;br&gt;• API de seguridad y roles&lt;br&gt;• Servicios expuestos para nuevos programas" style="text;html=1;align=left;verticalAlign=top;strokeColor=none;fillColor=none;fontSize=15;fontColor=#1E8449;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="478" y="468" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Pill1" value="Capa de servicios web" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9DFBF;strokeColor=#27AE60;arcSize=25;fontSize=13;fontColor=#1E8449;" vertex="1" parent="1">
+          <mxGeometry x="482" y="610" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Pill2" value="Interfaces SOA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9DFBF;strokeColor=#27AE60;arcSize=25;fontSize=13;fontColor=#1E8449;" vertex="1" parent="1">
+          <mxGeometry x="482" y="650" width="230" height="28" as="geometry" />
+        </mxCell>
+
+        <mxCell id="m3Box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDEBD0;gradientColor=#FEF5E7;gradientDirection=south;strokeColor=#D68910;strokeWidth=2;arcSize=4;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="310" width="285" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="m3Icon" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FAD7A0;strokeColor=#D68910;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="895" y="335" width="105" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="m3Title" value="NEGOCIO B-LEARNING" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontStyle=1;fontSize=20;fontColor=#9C640C;" vertex="1" parent="1">
+          <mxGeometry x="825" y="410" width="245" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="m3Text" value="• Oferta académica y docentes&lt;br&gt;• Inscripciones y bonificaciones&lt;br&gt;• Cursos, tutorías y evaluación&lt;br&gt;• Certificación y mejora continua" style="text;html=1;align=left;verticalAlign=top;strokeColor=none;fillColor=none;fontSize=15;fontColor=#9C640C;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="828" y="468" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m3Pill1" value="Capa de negocio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAD7A0;strokeColor=#D68910;arcSize=25;fontSize=13;fontColor=#9C640C;" vertex="1" parent="1">
+          <mxGeometry x="832" y="610" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="m3Pill2" value="Casos de uso del programa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAD7A0;strokeColor=#D68910;arcSize=25;fontSize=13;fontColor=#9C640C;" vertex="1" parent="1">
+          <mxGeometry x="832" y="650" width="230" height="28" as="geometry" />
+        </mxCell>
+
+        <mxCell id="m4Box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6DBDF;gradientColor=#F4F6F7;gradientDirection=south;strokeColor=#5D6D7E;strokeWidth=2;arcSize=4;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="310" width="285" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="m4Icon" value="" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#D5D8DC;strokeColor=#5D6D7E;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="330" width="105" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="m4Title" value="DATOS E INTEGRACIÓN" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontStyle=1;fontSize=20;fontColor=#34495E;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="410" width="245" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="m4Text" value="• BD centralizada de alumnos y cursos&lt;br&gt;• Resultados, certificaciones y KPI&lt;br&gt;• LMS institucional y SCORM/AICC&lt;br&gt;• Bibliotecas, correo, medios y pagos si aplica" style="text;html=1;align=left;verticalAlign=top;strokeColor=none;fillColor=none;fontSize=15;fontColor=#34495E;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1178" y="468" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m4Pill1" value="Capa de datos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5D8DC;strokeColor=#5D6D7E;arcSize=25;fontSize=13;fontColor=#34495E;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="610" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="m4Pill2" value="Capa de integración" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5D8DC;strokeColor=#5D6D7E;arcSize=25;fontSize=13;fontColor=#34495E;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="650" width="230" height="28" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step1" value="①" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2980B9;fontColor=#2980B9;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="230" y="735" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" value="②" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#27AE60;fontColor=#27AE60;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="580" y="735" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" value="③" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D68910;fontColor=#D68910;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="930" y="735" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" value="④" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5D6D7E;fontColor=#5D6D7E;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="735" width="38" height="38" as="geometry" />
+        </mxCell>
+
+        <mxCell id="supportBar" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F8F5;strokeColor=#00897B;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="810" width="1335" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="supportText" value="SOPORTE INSTITUCIONAL  ·  Bibliotecas digitalizadas  ·  Medios audiovisuales  ·  Telecomunicaciones  ·  Dirección de Tecnología para la Educación" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1;fontColor=#00695C;" vertex="1" parent="1">
+          <mxGeometry x="125" y="823" width="1295" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="resultBar" value="Resultados: cursos actuales sin interrupción  |  +3 licenciatura y +3 posgrado por ciclo  |  menor deserción  |  mayor alcance nacional e internacional  |  prestigio académico UNS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00796B;gradientColor=#26A69A;strokeColor=#00695C;fontColor=#FFFFFF;fontStyle=1;fontSize=16;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="905" width="1335" height="48" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e1" value="capta interesados" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#2980B9;strokeWidth=2.2;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="m1Box" target="m2Box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="habilita aulas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#27AE60;strokeWidth=2.2;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="m2Box" target="m3Box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="genera actividad académica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#D68910;strokeWidth=2.2;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="m3Box" target="m4Box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="indicadores guían la actualización" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;strokeColor=#5D6D7E;strokeWidth=2.2;dashed=1;dashPattern=8 6;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="m4Box" target="m1Box">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1298" y="285" />
+              <mxPoint x="248" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="recursos y continuidad" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#00897B;strokeWidth=2.2;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="supportBar" target="m2Box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

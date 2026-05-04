@@ -1,0 +1,157 @@
+<mxfile host="65bd71144e">
+    <diagram name="Diagrama de Despliegue - b-learning UNS" id="deployment-b-learning-uns">
+        <mxGraphModel dx="1051" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="Diagrama de Despliegue - Arquitectura CAPAS/SOA b-learning UNS" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=30;fontColor=#45515F;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="45" width="950" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="pc" value="PC / Móvil Usuario" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=14;direction=south;fillColor=#EAF4FB;strokeColor=#7FB3D5;strokeWidth=2;fontColor=#2874A6;fontStyle=1;fontSize=17;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="355" width="190" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="browser" value="Navegador web / móvil&lt;br&gt;alumno, docente,&lt;br&gt;coordinación y operación" style="shape=component;whiteSpace=wrap;html=1;fillColor=#D6EAF8;strokeColor=#7FB3D5;fontColor=#2874A6;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="438" width="130" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="webServer" value="Servidor Web" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=16;direction=south;fillColor=#EAF4FB;strokeColor=#7FB3D5;strokeWidth=2;fontColor=#2874A6;fontStyle=1;fontSize=18;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="250" width="330" height="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="presentationFolder" value="&lt;&lt;capa&gt;&gt;&lt;br&gt;Presentación" style="shape=folder;tabWidth=125;tabHeight=24;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#D6EAF8;strokeColor=#7FB3D5;strokeWidth=2;fontColor=#2874A6;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="325" width="270" height="285" as="geometry"/>
+                </mxCell>
+                <mxCell id="viewOffer" value="PortalOfertaCapacitacion&lt;br&gt;oferta, difusión y consultas" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="380" width="205" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="viewCampus" value="PortalCampusVirtual&lt;br&gt;inscripción, cursado y aula" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;" parent="1" vertex="1">
+                    <mxGeometry x="387.5" y="485" width="205" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="viewKpi" value="PortalReportes&lt;br&gt;indicadores y mejora continua" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="556" width="205" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="soaServer" value="Servidor Servicios Web / SOA" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=16;direction=south;fillColor=#EAF4FB;strokeColor=#7FB3D5;strokeWidth=2;fontColor=#2874A6;fontStyle=1;fontSize=18;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="735" y="250" width="340" height="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="servicesFolder" value="&lt;&lt;capa&gt;&gt;&lt;br&gt;Servicios Web" style="shape=folder;tabWidth=135;tabHeight=24;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#D6EAF8;strokeColor=#7FB3D5;strokeWidth=2;fontColor=#2874A6;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="765" y="325" width="280" height="285" as="geometry"/>
+                </mxCell>
+                <mxCell id="apiAcademic" value="APIAcademica&lt;br&gt;oferta, inscripciones y cursos" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="372" width="210" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="apiUsers" value="APISeguridad&lt;br&gt;SSO, roles y autorización" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="450" width="210" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="apiExternal" value="APIIntegracion&lt;br&gt;nuevos programas y externos" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="525" width="210" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="appServer" value="Servidor Aplicativo" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=18;direction=south;fillColor=#EAF4FB;strokeColor=#7FB3D5;strokeWidth=2;fontColor=#2874A6;fontStyle=1;fontSize=18;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="1155" y="130" width="430" height="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="businessFolder" value="&lt;&lt;capa&gt;&gt;&lt;br&gt;Negocio" style="shape=folder;tabWidth=110;tabHeight=24;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#D6EAF8;strokeColor=#7FB3D5;strokeWidth=2;fontColor=#2874A6;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="215" width="360" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="svcOffer" value="Diseñar y actualizar&lt;br&gt;oferta formativa" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="285" width="150" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="svcTeachingTeam" value="Gestionar cuerpo&lt;br&gt;docente invitado" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="285" width="150" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="svcEnroll" value="Captar e inscribir&lt;br&gt;alumnos" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="350" width="150" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="svcStudentAdmin" value="Administrar alumnos&lt;br&gt;y bonificaciones" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="350" width="150" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="svcContent" value="Producir contenidos&lt;br&gt;y actividades" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="415" width="150" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="svcMultimedia" value="Diseñar recursos&lt;br&gt;multimedia" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="415" width="150" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="svcLms" value="Administrar cursos&lt;br&gt;en LMS" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="480" width="150" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="svcTechService" value="Mantener servicio&lt;br&gt;tecnológico EaD" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="480" width="150" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="svcCourse" value="Impartir cursos&lt;br&gt;b-learning" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="545" width="150" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="svcEval" value="Evaluar y certificar&lt;br&gt;aprendizaje" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="545" width="150" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="svcReports" value="Analizar resultados&lt;br&gt;del programa" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="610" width="150" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="svcGrowth" value="Definir mejora y&lt;br&gt;crecimiento EaD" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="610" width="150" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="dbServer" value="Servidor BD" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=14;direction=south;fillColor=#EAF4FB;strokeColor=#7FB3D5;strokeWidth=2;fontColor=#2874A6;fontStyle=1;fontSize=18;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="1650" y="325" width="210" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="dataFolder" value="&lt;&lt;capa&gt;&gt;&lt;br&gt;Datos" style="shape=folder;tabWidth=90;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#D6EAF8;strokeColor=#7FB3D5;strokeWidth=2;fontColor=#2874A6;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1680" y="395" width="150" height="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="dbCentral" value="BD centralizada&lt;br&gt;b-learning UNS" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=16;fillColor=#EAF4FB;strokeColor=#7FB3D5;strokeWidth=2;fontColor=#2874A6;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1705" y="422" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="integrationServer" value="Servidor Integración" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=16;direction=south;fillColor=#EAF4FB;strokeColor=#7FB3D5;strokeWidth=2;fontColor=#2874A6;fontStyle=1;fontSize=18;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="735" y="755" width="550" height="285" as="geometry"/>
+                </mxCell>
+                <mxCell id="integrationFolder" value="&lt;&lt;capa&gt;&gt;&lt;br&gt;Integración" style="shape=folder;tabWidth=120;tabHeight=24;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#D6EAF8;strokeColor=#7FB3D5;strokeWidth=2;fontColor=#2874A6;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="775" y="830" width="470" height="155" as="geometry"/>
+                </mxCell>
+                <mxCell id="intLms" value="LMSInstitucional&lt;br&gt;SCORM/AICC, cursos y usuarios" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="890" width="190" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="intExternal" value="SistemasExternosUNS&lt;br&gt;bibliotecas, audiovisuales, correo, pagos si aplica" style="shape=component;whiteSpace=wrap;html=1;fillColor=#EAF4FB;strokeColor=#7FB3D5;fontColor=#2874A6;" parent="1" vertex="1">
+                    <mxGeometry x="1030" y="890" width="185" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="n1" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;strokeColor=#7FB3D5;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" parent="1" source="pc" target="webServer" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n2" value="REST/SOAP" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;strokeColor=#7FB3D5;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" parent="1" source="webServer" target="soaServer" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n3" value="SOA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;strokeColor=#7FB3D5;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" parent="1" source="soaServer" target="appServer" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n4" value="JDBC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;strokeColor=#7FB3D5;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" parent="1" source="appServer" target="dbServer" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="n5" value="Integración" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;strokeWidth=2;strokeColor=#7FB3D5;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" parent="1" source="soaServer" target="integrationServer" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="lblHttps" value="HTTPS" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#7FB3D5;fontColor=#2874A6;fontStyle=1;fontSize=13;spacing=4;" parent="1" vertex="1">
+                    <mxGeometry x="235" y="477" width="80" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="lblRestSoap" value="REST/SOAP" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#7FB3D5;fontColor=#2874A6;fontStyle=1;fontSize=13;spacing=4;" parent="1" vertex="1">
+                    <mxGeometry x="655" y="421" width="110" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="lblSoa" value="SOA" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#7FB3D5;fontColor=#2874A6;fontStyle=1;fontSize=13;spacing=4;" parent="1" vertex="1">
+                    <mxGeometry x="1073" y="421" width="74" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="lblJdbc" value="JDBC" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#7FB3D5;fontColor=#2874A6;fontStyle=1;fontSize=13;spacing=4;" parent="1" vertex="1">
+                    <mxGeometry x="1586" y="421" width="76" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="lblIntegration" value="Integración" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#7FB3D5;fontColor=#2874A6;fontStyle=1;fontSize=13;spacing=4;" parent="1" vertex="1">
+                    <mxGeometry x="935" y="704" width="110" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="i1" value="Interfaz académica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;endSize=14;strokeWidth=2;strokeColor=#7FB3D5;fontSize=12;fontColor=#2874A6;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" parent="1" source="viewOffer" target="apiAcademic" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="i2" value="Interfaz de seguridad" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;endSize=14;strokeWidth=2;strokeColor=#7FB3D5;fontSize=12;fontColor=#2874A6;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" parent="1" source="viewCampus" target="apiUsers" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="i3" value="Interfaz de negocio" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;endSize=14;strokeWidth=2;strokeColor=#7FB3D5;fontSize=12;fontColor=#2874A6;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" parent="1" source="apiAcademic" target="svcOffer" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="i4" value="Interfaz de datos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;endSize=14;strokeWidth=2;strokeColor=#7FB3D5;fontSize=12;fontColor=#2874A6;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" parent="1" source="svcReports" target="dbCentral" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5" value="Interfaz LMS / externos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;endSize=14;strokeWidth=2;strokeColor=#7FB3D5;fontSize=12;fontColor=#2874A6;labelBackgroundColor=#FFFFFF;jumpStyle=arc;jumpSize=8;" parent="1" source="apiExternal" target="intLms" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
