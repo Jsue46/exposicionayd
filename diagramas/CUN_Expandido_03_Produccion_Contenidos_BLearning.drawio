@@ -1,0 +1,94 @@
+<mxfile host="65bd71144e">
+  <diagram id="cun03-contenidos" name="CUN-03 Producción Contenidos">
+    <mxGraphModel dx="1469" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1120" pageHeight="820" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t" value="CUN-03 - Producir contenidos y recursos educativos" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=20;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="25" width="640" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="box" value="Producir contenidos y recursos educativos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=8;align=left;" parent="1" vertex="1">
+          <mxGeometry x="250" y="80" width="620" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1" value="Elaborar material&lt;br&gt;académico" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#000000;fontSize=12;fontStyle=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="215" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cb2" value="Diseñar recursos&lt;br&gt;multimedia" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#000000;fontSize=12;fontStyle=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="370" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cb3" value="Publicar recursos&lt;br&gt;en aula virtual" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#000000;fontSize=12;fontStyle=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="555" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf13" value="Elaborar material&lt;br&gt;teórico" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="125" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf14" value="Integrar bibliografía&lt;br&gt;y vínculos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="125" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf15" value="Diseñar actividades&lt;br&gt;prácticas" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="430" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf16" value="Producir recursos&lt;br&gt;gráficos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf17" value="Producir videos&lt;br&gt;educativos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="475" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf18" value="Publicar materiales&lt;br&gt;en LMS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="615" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" value="Cuerpo&lt;br&gt;Docente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontSize=12;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="55" y="160" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" value="Coordinadores&lt;br&gt;Departamento&lt;br&gt;Economía" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontSize=12;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="55" y="370" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" value="Equipo Operativo&lt;br&gt;Continuar.UNS" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontSize=12;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="55" y="585" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" value="Equipo Producción&lt;br&gt;Audiovisual" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontSize=12;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="955" y="420" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" value="Bibliotecas&lt;br&gt;Digitalizadas" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontSize=12;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="955" y="110" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="as1" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" parent="1" source="a1" target="cb1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as2" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" parent="1" source="a1" target="cb2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as3" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" parent="1" source="a2" target="cb1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as4" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" parent="1" source="a3" target="cb3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as5" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" parent="1" source="a4" target="rf17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as6" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" parent="1" source="a5" target="rf14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" parent="1" source="cb1" target="rf13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" parent="1" source="cb1" target="rf14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" parent="1" source="cb1" target="rf15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" parent="1" source="cb2" target="rf16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5" value="&lt;&lt;extend&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" parent="1" source="rf17" target="cb2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r6" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" parent="1" source="cb3" target="rf18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

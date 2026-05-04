@@ -1,0 +1,97 @@
+<mxfile host="65bd71144e">
+  <diagram id="cun01-oferta-formativa" name="CUN-01 Oferta Formativa">
+    <mxGraphModel dx="793" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1120" pageHeight="820" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t" value="CUN-01 - Diseñar y actualizar la oferta formativa" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="25" width="630" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="box" value="Diseñar y actualizar la oferta formativa" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=8;align=left;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="620" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1" value="Investigar necesidades&lt;br&gt;de capacitación" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#000000;fontSize=12;fontStyle=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cb2" value="Diseñar propuesta&lt;br&gt;académica" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#000000;fontSize=12;fontStyle=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="210" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cb3" value="Gestiónar cuerpo&lt;br&gt;docente" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#000000;fontSize=12;fontStyle=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="490" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01" value="Relevar necesidades" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="115" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02" value="Definir objetivos&lt;br&gt;y alcance" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="115" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03" value="Actualizar contenidos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="685" y="320" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04" value="Configurar oferta&lt;br&gt;flexible" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="475" y="320" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf05" value="Seleccionar y vincular&lt;br&gt;docentes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="620" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf06" value="Incorporar docentes&lt;br&gt;invitados" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="620" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" value="Coordinadora&lt;br&gt;del Programa" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontSize=12;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="55" y="120" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" value="Coordinadores&lt;br&gt;Departamento&lt;br&gt;Economía" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontSize=12;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="55" y="350" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" value="Cuerpo&lt;br&gt;Docente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontSize=12;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="55" y="585" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" value="Universidades&lt;br&gt;Invitadas" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="955" y="585" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="as1" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="a1" target="cb1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as2" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="a1" target="cb2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as3" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="a1" target="cb3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as4" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="a2" target="cb2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as5" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="a2" target="cb3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as6" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="a3" target="cb2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as7" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="a3" target="cb3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as10" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="a6" target="rf06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="cb1" target="rf01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="cb2" target="rf02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="cb2" target="rf03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="cb2" target="rf04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="cb3" target="rf05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r6" value="&lt;&lt;extend&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="rf06" target="cb3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

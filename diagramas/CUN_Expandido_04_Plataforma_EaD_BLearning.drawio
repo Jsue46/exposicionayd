@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" modified="2026-05-04T00:42:00.000Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="cun04-plataforma" name="CUN-04 Plataforma EaD">
+    <mxGraphModel dx="1300" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1120" pageHeight="820" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t" value="CUN-04 - Administrar plataforma y servicio EaD" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="25" width="600" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="box" value="Administrar plataforma y servicio EaD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=8;align=left;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="620" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1" value="Gestiónar cursos&lt;br&gt;en LMS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#000000;fontSize=12;fontStyle=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cb2" value="Mantener servicio&lt;br&gt;tecnológico EaD" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#000000;fontSize=12;fontStyle=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="470" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf19" value="Alojar cursos&lt;br&gt;en LMS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="130" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf20" value="Gestiónar usuarios&lt;br&gt;y grupos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="130" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf21" value="Habilitar comunicación" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf22" value="Mantener usabilidad&lt;br&gt;y compatibilidad" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="610" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf23" value="Brindar soporte&lt;br&gt;tecnológico" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="610" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rf24" value="Innovar plataforma&lt;br&gt;educativa" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" value="Dirección de&lt;br&gt;Tecnología&lt;br&gt;Educativa" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="55" y="250" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" value="Equipo Operativo&lt;br&gt;Continuar.UNS" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="55" y="480" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" value="Cuerpo&lt;br&gt;Docente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="955" y="225" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" value="Telecomunicaciónes" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="955" y="470" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" value="Autoridades&lt;br&gt;UNS" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;whiteSpace=wrap;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="955" y="610" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="as1" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="a1" target="cb2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as2" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="a2" target="cb1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as3" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="a2" target="cb2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as4" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="a3" target="rf21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as5" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="a4" target="rf23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as6" value="" style="endArrow=none;html=1;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="a5" target="rf24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="cb1" target="rf19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="cb1" target="rf20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="cb1" target="rf21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="cb2" target="rf22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="cb2" target="rf23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r6" value="&lt;&lt;extend&gt;&gt;" style="dashed=1;endArrow=open;endFill=0;html=0;fontSize=11;strokeColor=#000000;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" source="rf24" target="cb2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
